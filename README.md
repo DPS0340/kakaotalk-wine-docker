@@ -45,3 +45,5 @@ sudo ufw disable
 https://github.com/leoh0/dockerfiles/blob/master/kakaotalk-wine-root
 
 https://hamonikr.org/Free_Board/82037
+
+https://github.com/Riey/kime/issues/420

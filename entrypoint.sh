@@ -11,7 +11,8 @@ if [ ! -e "$HOME/.wine/drive_c/Program Files/Kakao/KakaoTalk/KakaoTalk.exe" ]; t
 
         winetricks -q d3dx11_43 gdiplus richtx32 msxml6 \
         && winetricks win7
-    
+
+    # Add by DPS0340: kime fix
     wine regedit /usr/local/bin/kakaotalk-root.reg
 
     wget http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe \
